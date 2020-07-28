@@ -4,17 +4,12 @@ import "../App.css";
 
 const Calender = () => {
   const [data, setData] = useState([]);
-  //   const [nameOfObject, setNameOfObject] = useState();
-  //   const [possibleDateOfAppearing, setPossibleDateOfAppearing] = useState();
-  const fetchJson = async (url) => {
-    const response = await fetch(url);
-    return response.json();
-  };
+  
   useEffect(() => {
-    fetchJson("https://ssd-api.jpl.nasa.gov/cad.api").then((data) =>
-      setData(data)
+    fetch("https://ssd-api.jpl.nasa.gov/cad.api")
+    .then(response => response.json())
+    .then(data => setData(data.data)
     );
-    //  setPossibleDateOfAppearing(data.filter(wholeData => wholeData.data.map(eachObject => eachObject.map( data=> data.split(","))[3])))
   }, []);
 
   return (
@@ -27,11 +22,11 @@ const Calender = () => {
           </tr>
         </thead>
         <tbody>
-          {data.data.map((object) => {
+          {data.map((object) => {
             return (
               <tr>
+                <td>{object.map((data) => data.split(","))[0]}</td>
                 <td>{object.map((data) => data.split(","))[3]}</td>
-                <td></td>
               </tr>
             );
           })}
