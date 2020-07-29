@@ -14,8 +14,8 @@ const ObjectInfo = ({ data, backToMainPage }) => {
           <tr>
             <th scope="col">#</th>
             <th scope="col">Distance</th>
-            <th scope="col">Distance-Min</th>
-            <th scope="col">Distance-Max</th>
+            <th scope="col">Min-Distance</th>
+            <th scope="col">Max-Distance</th>
           </tr>
         </thead>
         <tbody>
