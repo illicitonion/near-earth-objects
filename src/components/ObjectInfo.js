@@ -18,8 +18,8 @@ const ObjectInfo = ({ data, backToMainPage }) => {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">{(rowNum = rowNum + 1)}</th>
-            <td>{(data.split(",")[4])}au</td>
+            <th scope="row">{rowNum = rowNum + 1}</th>
+            <td>{data.split(",")[4]}au</td>
             <td>{data.split(",")[5]}au</td>
             <td>{data.split(",")[6]}au</td>
           </tr>
