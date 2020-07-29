@@ -26,7 +26,7 @@ const Calender = () => {
                     Name
                   </th>
                   <th scope="col" className="">
-                    Date
+                    Date & Time
                   </th>
                 </tr>
               </thead>
