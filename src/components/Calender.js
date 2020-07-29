@@ -14,12 +14,11 @@ const Calender = () => {
   let rowNum = 0;
   let mainContent;
   if(selectObjectData === null) {
-    console.log("it is",selectObjectData);
     mainContent = (
       <div>
         <div className="container">
           <div className="row">
-            <table className="table">
+            <table className="table table-bordered table-dark mt-2">
               <thead className="thead-dark">
                 <tr>
                   <th scope="col">#</th>
@@ -53,11 +52,10 @@ const Calender = () => {
     );
   } 
   else {
-    console.log("second",selectObjectData);
     mainContent = (
       <ObjectInfo 
       data = {selectObjectData}
-      backToMainPage = {setSelectObjectData(null)}
+      backToMainPage = {() => setSelectObjectData(null)}
       />
     );
   }
