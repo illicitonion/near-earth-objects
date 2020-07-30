@@ -26,9 +26,9 @@ const ObjectInfo = ({ data, backToMainPage }) => {
           <tbody>
             <tr>
               <th scope="row">{(rowNum = rowNum + 1)}</th>
-              <td>{data[4] * (149, 597, 870.69)} kilometers</td>
-              <td>{data[5] * (149, 597, 870.69)} kilometers</td>
-              <td>{data[6] * (149, 597, 870.69)} kilometers</td>
+              <td>{data[4]} Astronomical unit</td>
+              <td>{data[5]} Astronomical unit</td>
+              <td>{data[6]} Astronomical unit</td>
             </tr>
           </tbody>
         </table>

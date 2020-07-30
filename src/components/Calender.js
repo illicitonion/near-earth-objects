@@ -40,10 +40,14 @@ const Calender = () => {
                   <th scope="col" className="object-title">
                     <h1>Time</h1>
                   </th>
+                  <th scope="col" className="object-title">
+                    <h1>Rate</h1>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {data.map((object) => {
+                  console.log(object.map((data) => data.split(",")))
                   return (
                     <tr>
                       <td>{(rowNum = rowNum + 1)}</td>
@@ -69,6 +73,9 @@ const Calender = () => {
                             .map((data) => data.split(","))[3][0]
                             .split(" ")[1]
                         }
+                      </td>
+                      <td>
+                        {object.map((data) => data.split(","))[4] * (1.58125e-5)}
                       </td>
                     </tr>
                   );
