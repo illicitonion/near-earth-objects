@@ -5,14 +5,15 @@ const Navbar = () => {
 return (    
 <div>  
 <nav className="navbar navbar-light bg-light nav-bg-image">
-  <a className="navbar-brand" href="#">
-    <img src="https://drjanetwoods.files.wordpress.com/2018/08/1-meteror2.gif" width="100" height="80"/>
-  </a>
+  <img src="https://media0.giphy.com/media/kGVrfTTgBfQpLGuAcS/giphy.gif" width="200" height="80" alt="stars"/>
+  <img src="https://media0.giphy.com/media/kGVrfTTgBfQpLGuAcS/giphy.gif" width="200" height="80" alt="stars"/>
 </nav>
 </div>  
 )
 }
 
+
+// https://media0.giphy.com/media/9PyUrkqAQEzXxuaxfo/giphy.gif
 
 
 export default Navbar;

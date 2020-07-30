@@ -1,8 +1,86 @@
+html{
+  height: 100%;
+}
+
 .nav-bg-image{
   background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");  
   height: 100px;  
 }
 
-.object-name{
-  
+
+.calender-image{
+  background-image:url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif"); ;
+}
+
+.calender-title{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 0.5rem 1rem;
+color: azure;
+font-weight: bold;
+font-size: 40px;
+}
+
+.image-title-calender{
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  border-radius: 50px;
+  width: 90;
+  height: 200px;
+}
+
+.calender-title-text{
+  margin:auto auto;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: rgb(216, 205, 218);
+}
+
+
+.object-title{
+  color: rgb(204, 199, 196);
+  font-weight: bolder;
+}
+
+.object-table-calender{
+  background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
+  color:  rgb(151, 150, 226); 
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.nameOfObject{
+  color: rgb(151, 150, 226);
+}
+
+a:hover{
+  color: brown;
+  text-decoration: none;
+}
+
+.object-table-info{
+  background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
+  color:  rgb(236, 235, 161); 
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.object-info-page{
+  /* background-image: url("https://i.redd.it/bcsc8kfvhwx01.jpg"); */
+  background-size: cover;
+  background-repeat: repeat-x;
+  height: 100%;
+}
+
+.info-button{
+  background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
+  color:  rgb(233, 225, 121); 
+  font-weight: bold;
+}
+
+.btn:hover{
+  color: aliceblue;
 }
