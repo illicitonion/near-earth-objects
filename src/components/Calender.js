@@ -77,7 +77,7 @@ const Calender = () => {
                         }
                       </td>
                       <td className="rate">
-                       Rate = {Math.ceil((((Math.ceil(object.map((data) => data.split(","))[4] * (1.496e+8).toFixed(2))/5e+6).toFixed(3))/1.5)*100)}%
+                       {Math.ceil((((Math.ceil(object.map((data) => data.split(","))[4] * (1.496e+8).toFixed(2))/5e+6).toFixed(3))/1.5)*100)}%<i class="far fa-star"></i>
                       </td>
                     </tr>
                   );

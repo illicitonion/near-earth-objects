@@ -54,7 +54,7 @@ font-size: 40px;
 
 .object-table-calender{
   background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
-  color:rgb(151, 150, 226); 
+  color: rgb(163, 162, 235);
   font-weight: 900;
   font-size: 25px;
 }
@@ -75,12 +75,17 @@ a:hover{
   font-size: 20px;
 }
 
+.rate{
+  color: rgb(230, 230, 167);
+}
+
 .object-info-page{
   /* background-image: url("https://i.redd.it/bcsc8kfvhwx01.jpg"); */
   background-size: cover;
   background-repeat: repeat-x;
   height: 100%;
 }
+
 
 .info-button{
   background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
