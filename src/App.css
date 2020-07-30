@@ -79,7 +79,9 @@ a:hover{
   color: rgb(230, 230, 167);
   text-align: center;
 }
-
+.fas{
+  color: rgb(219, 213, 132);
+}
 .object-info-page{
   /* background-image: url("https://i.redd.it/bcsc8kfvhwx01.jpg"); */
   background-size: cover;
