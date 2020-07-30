@@ -43,7 +43,7 @@ const Calender = () => {
                     <h1>Time</h1>
                   </th>
                   <th scope="col" className="object-title">
-                    <h1>Rate</h1>
+                    <h1 className="ml-5">Visibility</h1>
                   </th>
                 </tr>
               </thead>
