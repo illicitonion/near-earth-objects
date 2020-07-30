@@ -54,13 +54,13 @@ font-size: 40px;
 
 .object-table-calender{
   background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
-  color: rgb(163, 162, 235);
+  color :rgb(177, 177, 145);
   font-weight: 900;
   font-size: 25px;
 }
 
 .nameOfObject{
-  color: rgb(151, 150, 226);
+  color:rgb(177, 177, 145);
 }
 
 a:hover{
