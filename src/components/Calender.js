@@ -16,7 +16,7 @@ const Calender = () => {
   if (selectObjectData === null) {
     mainContent = (
       <div>
-        <div className="container  mt-5 border calender">
+        <div className="container calender">
           <div className="mt-5 calender-title">
             <img
               src="https://i.gifer.com/7b5j.gif"

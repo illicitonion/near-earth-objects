@@ -7,13 +7,15 @@ body{
 }
 
 .nav-bg-image{
-  background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");  
+  background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
   height: 110px; 
 }
 
 .calender{
+  margin-top: 6rem;
   border-radius: 50px;
-  background-image:url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
+  margin-bottom: 2rem;
+  border:1px solid rgb(174, 153, 197);
 }
 
 
@@ -32,7 +34,7 @@ font-size: 40px;
   justify-content:center;
   align-content:center;
   border-radius: 50px;
-  width: 90;
+  width: 30%;
   height: 200px;
 }
 
@@ -41,7 +43,7 @@ font-size: 40px;
   font-size: 40px;
   font-weight: bolder;
   text-transform: capitalize;
-  color: rgb(178, 173, 179);
+  color: rgb(184, 180, 185);
 }
 
 
@@ -84,6 +86,7 @@ a:hover{
   background-image: url("https://thumbs.gfycat.com/SmugUnconsciousCornsnake-size_restricted.gif");
   color:  rgb(233, 225, 121); 
   font-weight: bold;
+  border:1px solid white;
 }
 
 .btn:hover{
