@@ -4,7 +4,7 @@ import "../App.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-light bg-light nav-bg-image">
+      <nav className="navbar nav-bg-image">
         <img
           src="https://media0.giphy.com/media/kGVrfTTgBfQpLGuAcS/giphy.gif"
           width="200"
