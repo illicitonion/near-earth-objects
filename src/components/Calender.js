@@ -26,21 +26,24 @@ const Calender = () => {
                     Name
                   </th>
                   <th scope="col" className="">
-                    Date & Time
+                    Date
                   </th>
+                  <th scope="col" className="">
+                   Time
+                  </th> 
                 </tr>
               </thead>
               <tbody>
                 {data.map((object) => {
+                  console.log(object.map(data => data.split(","))[3])
                   return (
                     <tr>
                       <td>{(rowNum = rowNum + 1)}</td>
-                      <td>
-                        <a href="#" onClick={() => setSelectObjectData(object)}>
+                      <td className="object-name" onClick={() => setSelectObjectData(object)}>
                           {object.map((data) => data.split(","))[0]}
-                        </a>
                       </td>
-                      <td>{object.map((data) => data.split(","))[3]}</td>
+                      <td>{(object.map(data => data.split(","))[3])[0].split(" ")[0]}</td>
+                      <td>{(object.map(data => data.split(","))[3])[0].split(" ")[1]}</td>
                     </tr>
                   );
                 })}
