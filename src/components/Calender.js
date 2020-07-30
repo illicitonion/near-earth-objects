@@ -13,6 +13,8 @@ const Calender = () => {
   }, []);
   let rowNum = 0;
   let mainContent;
+  let Rate;
+
   if (selectObjectData === null) {
     mainContent = (
       <div>
@@ -74,8 +76,8 @@ const Calender = () => {
                             .split(" ")[1]
                         }
                       </td>
-                      <td>
-                        {object.map((data) => data.split(","))[4] * (1.58125e-5)}
+                      <td className="rate">
+                       Rate = {Math.ceil((((Math.ceil(object.map((data) => data.split(","))[4] * (1.496e+8).toFixed(2))/5e+6).toFixed(3))/1.5)*100)}%
                       </td>
                     </tr>
                   );
